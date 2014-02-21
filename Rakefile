@@ -1,5 +1,7 @@
 require 'rake/testtask'
 
 Rake::TestTask.new do |t|
-  t.pattern = 'test/*test.rb'
+  t.pattern = 'quiz.rb'
 end
+
+task default: :test
